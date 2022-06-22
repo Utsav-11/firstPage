@@ -1,0 +1,391 @@
+.main-logo {
+  color: #4284f4;
+  font-size: xx-large;
+}
+.brand-name {
+  color: #4284f4;
+}
+.menus-list {
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+.menus-list:hover {
+  font-weight: bold;
+}
+.menus-list:hover::after {
+  content: "";
+  position: absolute;
+  border: 2px solid #4284f4;
+  width: 15px;
+  border-radius: 20px;
+  left: 0px;
+  bottom: -4px;
+  font-weight: bold;
+  background-color: #4284f4;
+}
+.ncbl {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.background {
+  border: 1px solid blue;
+  padding: 10px;
+  position: absolute;
+  height: 700px;
+  width: 550px;
+  border: none;
+  background-color: #f6f9fe;
+
+  z-index: -1;
+  top: -35px;
+  left: 50px;
+}
+.number {
+  color: #4284f4;
+}
+.contianer-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us {
+  color: #4284f4;
+}
+.mission-vision {
+  position: relative;
+  color: black;
+}
+.mission:hover {
+  color: #4284f4;
+  font-weight: bold;
+}
+.vision:hover {
+  color: #4284f4;
+  font-weight: bold;
+}
+
+.mission:hover::after {
+  content: "";
+  position: absolute;
+  border: 2px solid #4284f4;
+  width: 20px;
+  border-radius: 20px;
+  left: 0px;
+  bottom: -4px;
+  font-weight: bold;
+  background-color: #4284f4;
+}
+.vision:hover::after {
+  content: "";
+  position: absolute;
+  border: 2px solid #4284f4;
+  width: 20px;
+  border-radius: 20px;
+  left: 112px;
+  bottom: -4px;
+  font-weight: bold;
+  background-color: #4284f4;
+}
+.btn1 {
+  text-transform: uppercase;
+  
+}
+.btn1:hover {
+  background-color: #4284f4;
+  color: white;
+}
+.services{
+    color: #4284f4;
+    font-weight: 400;
+}
+.icon:hover{
+    box-shadow: 2px 2px;
+}
+.text-2{
+    position: relative;
+    cursor: pointer;
+}
+.text-2:hover::after{
+    position: absolute;
+    content: '';
+    border: 2px solid #4284f4;
+    width: 40px;
+    background-color: #4284f4;
+    border-radius: 20px;
+    left: 0px;
+  bottom: -8px;
+  margin-bottom: 4px;
+  
+}
+.team-heading{
+    color: #4284f4;
+
+}
+.image-card{
+    position: relative;
+}
+.background-box{
+    position:absolute;
+    border: 1px solid #F5F9FF;
+    background-color: #F5F9FF;
+    width: 300px;
+    height: 300px;
+    left: 59px;
+    top: 74px;
+    z-index: -1;
+   
+}
+.social-media-link{
+    color: #4284f4;
+}
+.name{
+    font-size:xx-large;
+    letter-spacing: 3px;
+}
+.designation
+{
+    font-size: normal;
+    color: gray;
+}
+
+.container-box {
+  border-radius: 0px 30px 30px 30px;
+  margin: 100px;
+}
+.c {
+  width: 60px;
+  height: 60px;
+  border: 15px solid #4284f4;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  transform: rotate(-6deg);
+  left: -32px;
+}
+.box {
+  background-color: #4284f4;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 5px;
+  left: -27px;
+  bottom: -27px;
+  z-index: -1;
+}
+.u {
+  width: 40px;
+  height: 40px;
+  border: 10px solid #4284f4;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 4px;
+  right: -20px;
+}
+.circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #4284f4;
+}
+.circle {
+  border: 1px solid #4284f4;
+  border: none;
+  background-color: #4284f4;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+
+  border-left: 8px solid white;
+  position: absolute;
+  left: 12px;
+  bottom: 8px;
+}
+.text {
+  color: #4284f4;
+}
+.video-box {
+  border: 1px solid gray;
+  height: 400px;
+  width: 500px;
+  border-radius: 20px;
+  background-color: gray;
+}
+.circle-1 {
+  border: 1px solid gray;
+  background: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  offset: 3px;
+  position: relative;
+  top: 180px;
+  left: 204px;
+}
+.arrow-right-1 {
+  width: 0;
+  height: 0;
+  border-top: 14px solid transparent;
+  border-bottom: 14px solid transparent;
+
+  border-left: 14px solid aqua;
+  position: absolute;
+  left: 19px;
+  bottom: 10px;
+}
+.btn1 {
+  border: 1px solid blue;
+  border-radius: 20px;
+  border: none;
+}
+.icon {
+  border: 1px solid black;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #4284f4;
+}
+.words-from-chairperson{
+    color: #4284f4;
+}
+.badri{
+    color: #4284f4;
+    font-weight: bold;
+}
+.blogs{
+    color: #4284f4;
+}
+.backarrow:hover{
+    color: #4284f4;
+}
+.forward:hover{
+    color: #4284f4;
+}
+.btn2{
+    color: #4284f4;
+border: 1px solid #4284f4;
+border-radius: 20px;}
+.card-1-wrapper{
+    position: relative;
+}
+.background-box1{
+    position: absolute;
+    left: 141px;
+    top: 79px;
+}
+.card-3{
+  background-color: #F5F9FF;
+  
+}
+.place{
+  color: #4284f4;
+}
+.main-circle{
+  border: 1px solid gray;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;position: relative;
+}
+.arrow
+{
+  position: absolute;
+  right: 5px;
+  bottom: -1px;
+  color: gray;
+}
+.button{
+  border: 1px solid #4284f4;
+  color: #4284f4;
+  width: 200px;
+  padding: 10px;
+  border-radius: 20px;
+
+}
+.button:hover{
+  background-color: #4284f4;
+  color: white;
+  cursor: pointer;
+}
+.form-container{
+  border: 1px solid gray;
+  border-radius: 20px;
+  border: none;
+}
+.form-box{
+  background-color: #4284f4;
+  height: 500px;
+  
+  border-radius: 20px;
+}
+.input-box{
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  color:gray;
+  width: 300px;
+  outline: none;
+}
+.send-message
+{
+  border: 1px solid #4284f4;
+  padding: 10px;
+  color: #4284f4;
+  background-color: white;
+  border-radius: 20px;
+}
+.send-message:hover{
+  background-color: #4284f4;
+  color: white;
+}
+.footer{
+  margin-top: 100px;
+  background-color: #F5F9FF;
+}
+.logo{
+  color: #4284f4;
+}
+.input-group-text{
+  background-color: #4284f4;
+  color: white;
+}
+.facebook:hover{
+  outline: 2px solid #4284f4;
+  outline-offset:2px;
+  border-radius: 50%;
+  cursor: pointer;
+  
+}
+.insta:hover{
+  outline: 2px solid #F6A31C;
+  outline-offset:2px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.linkedin:hover{
+  outline: 2px solid #4284f4;
+  outline-offset:2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.twitter:hover{
+  outline: 2px solid #4284f4;
+  outline-offset:2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.main-footer{
+  text-align: left;
+  font-size: xx-small;
+}
